@@ -1,2 +1,2 @@
-# Bappa_Lover
-Ganpati_ustav_2k24
+# Ganpati_ustav_2k24
+Bappa_Lover
