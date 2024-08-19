@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="Gnapati Bappa Morya..">
+    <meta name="keywords" content="Wishing Card">
+    <title>Ganpati_Bappa_2k24</title>
+
+
+</head>
+
+<body>
+    <div class="preloader">
+        <section>
+            <video width="350" height="270" src="project_video/smoke.mp4" muted autoplay></video>
+            <h1>
+                <span><img src="project_images/my_photo.jpg" alt="Avatar" style="width:100px"></span><br>
+                <span>It's</span>
+                <span>Harshad</span>
+                <span>Creation</span>
+            </h1>
+            <div>
+                <video autoplay muted plays-inline class="background-clip" width="350" height="450">
+                    <source src="project_video/Bappa_video.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <br>
+        <div class="counter">0</div>
+    </div>
+    <section><br><br><br>
+        <div class="box">
+            <span style="--i:1;"><img src="project_images/visrjan.jpg"></span>
+            <span style="--i:2;"><img src="project_images/dj.jpg"></span>
+            <span style="--i:3;"><img src="project_images/magla_gavar.jpeg" alt=""></span>
+            <span style="--i:4;"><img src="project_images/quit.png" alt=""></span>
+            <span style="--i:5;"><img src="project_images/modak.jpeg" alt=""></span>
+            <span style="--i:6;"><img src="project_images/chitamani.jpeg" alt=""></span>
+            <span style="--i:7;"><img src="project_images/pathak.jpg" alt=""></span>
+            <span style="--i:8;"><img src="project_images/shri.jpg" alt=""></span>
+        </div>
+        <br><br><br>
+        <center>
+            <h3>
+                <small><span><b>HAPPY</b></span><br>
+                    <span>GANESH</span><br>
+                    <span>CHATURTHI</span> </small>
+
+            </h3>
+        </center>
+        <br><br><br>
+        <center><img src="project_images/logo.png" width="100px"></center><br><br>
+        <P>
+        <h4><b><i>VAKRATUND MAHAKAY,SURYAKOTI SAMPRABHAH<br>
+                    NIRVIGHNAM KURUME DEVAM, SARVAKARYESU SARVADA<br>
+                    <i>Happy Ganesh Chauturthi......</i></i></b>
+        </h4>
+        </P><br>
+        </div><br>
+        <video autoplay muted loop width="350" height="450">
+            <source src="project_video/AI.mp4 " type="video/mp4">
+        </video>
+
+    </section>
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript">
+        function counter() {
+            var count = setInterval(function () {
+                var c = parseInt($('.counter').text());
+                $('.counter').text((++c).toString());
+                if (c == 100) {
+                    clearInterval(count);
+                    $('.counter').addClass('hide')
+                    $('.preloader').addClass('active')
+                }
+
+            }, 150)
+        }
+        counter()
+    </script>
+</body>
+
+</html>
